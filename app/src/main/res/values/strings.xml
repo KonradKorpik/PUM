@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lista 1</string>
+    <string name="next">Następne</string>
+    <string-array name="questions">
+        <item>Pytanie 1/10|Które z tych miast jest stolicą Malezji?|George Town|Johor Bahru|Kuching|Kuala Lumpur|D</item>
+        <item>Pytanie 2/10|Które z tych miast jest stolicą Hiszpanii?|Barcelona|Sevilla|Valencia|Madryt|D</item>
+        <item>Pytanie 3/10|Które z tych miast jest stolicą Włoch?|Mediolan|Neapol|Rzym|Turyn|C</item>
+        <item>Pytanie 4/10|Które z tych miast jest stolicą Francji?|Paryż|Marsylia|Lyon|Tuluza|A</item>
+        <item>Pytanie 5/10|Które z tych miast jest stolicą Niemiec?|Hamburg|Berlin|Monachium|Frankfurt|B</item>
+        <item>Pytanie 6/10|Które z tych miast jest stolicą Japonii?|Osaka|Tokio|Kioto|Nagoja|B</item>
+        <item>Pytanie 7/10|Które z tych miast jest stolicą Rosji?|Moskwa|Sankt Petersburg|Nowosybirsk|Jekaterynburg|A</item>
+        <item>Pytanie 8/10|Które z tych miast jest stolicą Kanady?|Toronto|Vancouver|Ottawa|Montreal|C</item>
+        <item>Pytanie 9/10|Które z tych miast jest stolicą Australii?|Sydney|Melbourne|Canberra|Brisbane|C</item>
+        <item>Pytanie 10/10|Które z tych miast jest stolicą Brazylii?|Brasilia|Salvador|Sao Paulo|Rio de Janeiro|A</item>
+    </string-array>
+</resources>
