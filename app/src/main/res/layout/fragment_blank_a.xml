@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragmentA">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="96sp"
+        android:gravity="center_vertical"
+        android:text="Witaj"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        tools:ignore="RtlCompat" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="144sp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/fabA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:contentDescription="FAB"
+            android:focusable="true"
+            android:paddingLeft="96sp"
+            android:paddingRight="96sp"
+            android:text="Zaloguj"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/fabB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="16sp"
+            android:layout_marginTop="96sp"
+            android:clickable="true"
+            android:contentDescription="FAB"
+            android:focusable="true"
+            android:paddingLeft="96sp"
+            android:paddingRight="96sp"
+            android:text="Rejestruj"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

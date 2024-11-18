@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/blankFragmentA">
+
+    <fragment
+        android:id="@+id/blankFragmentA"
+        android:name="com.example.lista20.BlankFragmentA"
+        android:label="fragment_blank_a"
+        tools:layout="@layout/fragment_blank_a" >
+        <action
+            android:id="@+id/action_blankFragmentA_to_blankFragmentB"
+            app:destination="@id/blankFragmentB" />
+        <action
+            android:id="@+id/action_blankFragmentAToBlankFragmentC"
+            app:destination="@id/blankFragmentC" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragmentB"
+        android:name="com.example.lista20.BlankFragmentB"
+        android:label="fragment_blank_b"
+        tools:layout="@layout/fragment_blank_b" />
+        <action
+            android:id="@+id/action_blankFragmentBToBlankFragmentC"
+            app:destination="@id/blankFragmentC" />
+        <action
+            android:id="@+id/action_blankFragmentBToBlankFragmentD"
+            app:destination="@id/blankFragmentD" />
+    <fragment
+        android:id="@+id/blankFragmentC"
+        android:name="com.example.lista20.BlankFragmentC"
+        android:label="fragment_blank_c"
+        tools:layout="@layout/fragment_blank_c" />
+        <action
+            android:id="@+id/action_blankFragmentCToBlankFragmentB"
+            app:destination="@id/blankFragmentB" />
+    <fragment
+        android:id="@+id/blankFragmentD"
+        android:name="com.example.lista20.BlankFragmentD"
+        android:label="fragment_blank_d"
+        tools:layout="@layout/fragment_blank_d" >
+        <argument
+            android:name="username"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_blankFragmentDToBlankFragmentB"
+            app:destination="@id/blankFragmentB" />
+    </fragment>
+</navigation>
